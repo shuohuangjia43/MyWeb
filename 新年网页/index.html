@@ -1,65 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新年祝福</title>
-    <style>
-        /* 全局文本样式 */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffebd7;    /* #ffebd7 */
-            color: #333;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
+<html格式朗=“en”（英语）&#62;
+<头&#62;
+<元字符集= UTF-8型&#62;
+<元名称=“视口”内容="width=device-width, initial-scale=1.0"&#62;
+<标题&#62;新年祝福</标题&#62;
+<风格&#62;
+/* 全局文本样式 */
+身体{
+前家族: 宋体,无衬线;
+背景色 ：#ffbd7； /* #ffebd7 */
+颜色: #333;
+边缘:0;
+衬垫:0;
+水平对齐:中心;
+显示:弯曲;
+弯曲方向:柱;
+对齐-项目:中心;
+正当内容:中心;
+最小高度:100 甚高频;
+}
 
-        /* 卡片容器 */
-        .cards-container {
-            display: flex;
-            flex-wrap: wrap; /* 允许换行 */
-            gap: 20px;       /* 项目之间的间距 */
-            padding: 20px;   /* 容器内边距 */
-            width: 100%;
-            max-width: 1140px; /* 设置最大宽度以适应大多数屏幕 */
-            margin: 0 auto;  /* 居中对齐 */
-        }
+/* 卡片容器 */
+.卡片-容器{
+显示:弯曲;
+弯曲缠绕:包;/* 允许换行 */
+缺口:20二甲苯;/* 项目之间的间距 */
+衬垫:20二甲苯;/* 容器内边距 */
+宽度:100%;
+最大宽度:1140二甲苯;/* 设置最大宽度以适应大多数屏幕 */
+边缘:0汽车;/* 居中对齐 */
+}
 
-        /* 卡片 */
-        .card {
-            flex: 1 1 calc(33.333% - 40px); /* 设置卡片在Flex容器中的增长、收缩和初始宽度；每行显示三个卡片 */
-            min-width: 200px;               /* 卡片最小宽度为200px，防止过小 */
-            max-width: 350px;               /* 卡片最大宽度限制为350px */
-            height: 200px;                  /* 固定高度为200px，保持一致 */
-            background-color: #ffb4b4;      /* 深红色背景色 */
-            border-radius: 10px;            /* 圆角边框，柔和边缘 */
-            overflow: hidden;               /* 隐藏溢出内容，确保内部元素不超出边界 */
-            perspective: 1000px;            /* 透视效果，适用于3D变换 */
-            box-shadow: 0 0 0 5px #ff3d3d80;/* 添加阴影，增强立体感 */
-            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* 平滑过渡动画，使用自定义贝塞尔曲线 */
-        }
-        
-        .card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+/* 卡片 */
+.卡片{
+弯曲:11calc(33.333%-40二甲苯);/* 设置卡片在Flex容器中的增长、收缩和初始宽度；每行显示三个卡片 */
+最小宽度:200二甲苯;/* 卡片最小宽度为200px，防止过小 */
+最大宽度:350二甲苯;/* 卡片最大宽度限制为350px */
+高度:200二甲苯;/* 固定高度为200px，保持一致 */
+背景色 标题ffb4b4/* 深红色背景色 */
+边界半径:10二甲苯;/* 圆角边框，柔和边缘 */
+溢出:隐藏;/* 隐藏溢出内容，确保内部元素不超出边界 */
+观点:1000二甲苯;/* 透视效果，适用于3D变换 */
+长方体阴影:0005二甲苯#ff3d3d80；/* 添加阴影，增强立体感 */
+过渡:全部的0.6秒立方贝塞尔(0.175,0.885,0.32,1.275);/* 平滑过渡动画，使用自定义贝塞尔曲线 */
+}
 
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-        }
+ .card 图片{
+宽度:100%;
+高度:100%;
+对象fit:盖;
+}
 
-        .card__content {
-            position: absolute;
-            top: 0;
-            left: 0;
+.卡：悬停{
+转型:规模(1.05);
+长方体阴影:08二甲苯16二甲苯 rgba公司(255,255,255,0.2);
+}
+
+.卡片_内容{
+位置:绝对的;
+顶部:0;
+左边:0;
             width: 100%;
             height: 100%;
             padding: 20px;
